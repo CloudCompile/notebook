@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notebook with Supabase</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.0.0/dist/supabase.min.js"></script>
+</head>
+<body>
+  <div class="notebook">
+    <h1>My Notebook</h1>
+    <textarea id="noteText" placeholder="Write your notes here..."></textarea>
+    <button id="saveButton">Save Note</button>
+    <button id="loadButton">Load Note</button>
+    <div id="loginSection">
+      <button id="loginButton">Login</button>
+      <button id="logoutButton" style="display: none;">Logout</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
